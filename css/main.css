@@ -1,14 +1,33 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
 
-/* ----------- Tablets larger than 768px wide ----------- */
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/* ----------- Tablets larger than 768px wide -----------
 @media screen and (min-width:768px) {
 	body {
     background: red;
   }
 }
 
-/* ----------- Monitors larger than 1200px wide ----------- */
+/* ----------- Monitors larger than 1200px wide -----------
 @media screen and (min-width:1200px) {
 	body {
     background: blue;
   }
 }
+-------*/
